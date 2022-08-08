@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.page-id-80 .top-bar {
+    height: 8vh;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(3, 25, 31, 0.7);
+    top: 0;
+}
+
+.page-id-80 .flex-rows {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.page-id-80 .row-left {
+    margin-right: auto;
+    margin-left: 10%;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-id-80 .row-left p {
+    color: white;
+    font-size: 3em;
+}
+
+.page-id-80 .row-right {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page-id-80 .row-right p {
+    color: white;
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+.page-id-80 .row-right p:hover {
+    color: #D6A53F;
+}
+
+.page-id-80 #parent {
+    border: 0 !important;
+    contain: content;
+}
+
+.page-id-80 #landing-page {
+    border: 0 !important;
+    width: 100%;
+    height: auto;
+}
+
+.page-id-80 #landing-page img {
+    border: 0 !important;
+    height: 100%;
+    width: 100%;
+}
+
+.page-id-80 .text-temp {
+    width: 100%;
+    position: fixed;
+    padding: 2em;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-temp h1 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 8em;
+    color: white;
+}
+
+.text-temp h4 {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+.page-id-80 #section2 {
+    border: 0 !important;
+    height: 80vh;
+    width: 100vw;
+    background-color: #04313D;
+    contain: content;
+}
+
+.page-id-80 #about-us-title {
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 90px;
+
+    margin-left: 150px;
+    color: #D6A53F;
+    font-size: 3em;
+    text-decoration: white underline;
+    text-underline-offset: 10px;
+
+}
+
+.page-id-80 .left-img::before {
+    transform: translateZ(-1px);
+    width: 80px;
+    height: 80px;
+    margin-left: -50px;
+    margin-top: -50px;
+    background: #D6A53F;
+    content: '';
+    display: inline-block;
+}
+
+.page-id-80 .left-img {
+    transform-style: preserve-3d;
+    margin-left: 10%;
+    background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/07/dreamstime_l_154829520-scaled.jpg");
+    width: 400px;
+    height: 600px;
+    background-size: cover;
+}
+
+.page-id-80 .left-img::after {
+    transform: translateZ(-1px);
+    position: absolute;
+    border-radius: 50%;
+    bottom: -50px;
+    right: -50px;
+    width: 100px;
+    height: 100px;
+    background: #D6A53F;
+    content: '';
+    display: inline-block;
+}
+
+
+.page-id-80 .right-text {
+    text-align: center;
+    width: 50%;
+    position: fixed;
+    left: 70%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.page-id-80 .right-text p {
+    color: white;
+    font-size: 1.7em;
+}
+
+.page-id-80 #section3 {
+    border: 0 !important;
+    height: 80vh;
+    width: 100vw;
+    background-color: #F2F2F2;
+    contain: content;
+}
+
+.page-id-80 #Key-attractions-title {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 90px;
+
+    color: black;
+    font-size: 5em;
+    text-decoration: #04313D underline;
+    text-underline-offset: 10px;
+}
+
+.page-id-80 .flex-collum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-id-80 .attraction-row {
+    width: 90%;
+    height: 500px;
+    background-color: white;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
+
+/* Do Not Edit */
+.custom-shape-divider-bottom-1659972999 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1659972999 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 132px;
+}
+
+.custom-shape-divider-bottom-1659972999 .shape-fill {
+    fill: #F2F2F2;
+}
