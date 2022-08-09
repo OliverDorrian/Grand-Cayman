@@ -81,6 +81,7 @@ html, body {
 }
 
 .page-id-80 .text-temp {
+    text-align: center;
     width: 100%;
     position: fixed;
     padding: 2em;
@@ -106,19 +107,16 @@ html, body {
 
 .page-id-80 #section2 {
     border: 0 !important;
-    height: 80vh;
-    width: 100vw;
+
     background-color: #04313D;
     contain: content;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
+    padding-top: 100px;
 }
 
 .page-id-80 #about-us-title {
     text-align: center;
-    width: 70%;
-    margin-top: 50px;
-    margin-bottom: 90px;
-    margin-left: 250px;
+    width: 100%;
     color: #D6A53F;
     font-size: 4em;
     text-underline-offset: 10px;
@@ -128,6 +126,7 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     width: 100%;
 }
 
@@ -201,16 +200,17 @@ html, body {
     margin-top: 40px;
     margin-bottom: 40px;
     width: 90%;
-    height: 450px;
+    max-height: 350px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .page-id-80 .attraction-row-img {
-    width: 30%;
-    height: 100%;
+    width: 350px;
+    height: 350px;
 }
 
 .page-id-80 .attraction-row-img img {
@@ -219,8 +219,7 @@ html, body {
 }
 
 .page-id-80 .attraction-row-text {
-    width: 70%;
-    height: 100%;
+    width: calc(100% - 350px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -233,13 +232,13 @@ html, body {
 
 .page-id-80 .attraction-row-text h1 {
     margin-top: 0;
-    font-size: 3em;
+    font-size: 2.5em;
     color: #BC973F;
-    text-underline-offset: 10px;
+    margin-bottom: 0;
 }
 
 .page-id-80 .attraction-row-text p {
-    font-size: 1.7em;
+    font-size: 1.4em;
     color: black;
     text-align: justify;
 }
@@ -252,6 +251,7 @@ html, body {
 
 .page-id-80 #section4-content {
     padding-top: 150px;
+    padding-bottom: 150px;
     display: inline-block;
     width: 100%;
 }
@@ -302,7 +302,7 @@ html, body {
 
 .page-id-80 .img-and-text {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .page-id-80 #section5 {
@@ -516,7 +516,7 @@ html, body {
 }
 
 .page-id-80 blockquote p {
-    font-size: 5em;
+    font-size: 3em;
 }
 
 .page-id-80 blockquote:after {
@@ -766,4 +766,45 @@ summary {
 .faq__content p {
     color: white;
     font-size: 1.5em;
+}
+
+@media only screen and (max-width: 960px) {
+    .page-id-80 .attraction-row-img {
+        width: 300px;
+    }
+
+    .page-id-80 .attraction-row-text {
+        width: calc(100% - 300px);
+    }
+
+    .page-id-80 .padding-div-large {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .page-id-80 .attraction-row {
+        width: 100%;
+    }
+
+    .page-id-80 .attraction-row-text p {
+        font-size: 1.3em;
+    }
+
+    .page-id-80 .attraction-row-text h1 {
+        font-size: 2em;
+    }
+
+    .page-id-80 .padding-div {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .page-id-80 .attraction-row-text p {
+        font-size: 1em;
+    }
+
+    .page-id-80 .attraction-row-text h1 {
+        font-size: 1.75em;
+    }
 }
