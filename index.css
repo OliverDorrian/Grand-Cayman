@@ -297,6 +297,68 @@ html, body {
     flex-direction: row;
 }
 
+.page-id-80 #section5 {
+    position: relative;
+    background-color: #F9F9F9;
+}
+
+.page-id-80 #section5-content {
+    padding-top: 200px;
+    padding-bottom: 150px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+/* Do Not Edit */
+.page-id-80 blockquote {
+    border-left: 3px solid #000000;
+    color: #04313D;
+    font-style: italic;
+    padding: 1em 2em;
+    position: relative;
+    transition: 0.2s border ease-in-out;
+    z-index: 0;
+}
+
+.page-id-80 blockquote:before {
+    content: "";
+    position: absolute;
+    top: 44%;
+    left: -4px;
+    height: 6em;
+    background-color: #F9F9F9;
+    width: 5px;
+    margin-top: -1em;
+}
+
+.page-id-80 blockquote cite {
+    text-align: center;
+    color: #BC973F;
+    display: block;
+    font-size: 4em;
+    margin-top: 1em;
+}
+
+.page-id-80 blockquote p {
+    font-size: 5em;
+}
+
+.page-id-80 blockquote:after {
+    content: "''";
+    position: absolute;
+    top: 50%;
+    left: -0.5em;
+    color: #000000;
+    font-size: 5em;
+    font-family: "Ionicons";
+    font-style: normal;
+    text-align: center;
+    text-indent: -2px;
+    width: 1em;
+    margin-top: -0.5em;
+    transition: 0.2s all ease-in-out, 0.4s transform ease-in-out;
+}
 
 /* Do Not Edit */
 .page-id-80 .overlay {
@@ -346,15 +408,7 @@ html, body {
     right: var(--border-space);
 }
 
-.page-id-80 #section5 {
-    position: relative;
-    height: 100vh;
-    background-color: #F9F9F9;
-}
 
-.page-id-80 #sectio5-content {
-    
-}
 
 /* Do Not Edit */
 .custom-shape-divider-bottom-1659972999 {
@@ -415,5 +469,26 @@ html, body {
 }
 
 .custom-shape-divider-top-1660042866 .shape-fill {
+    fill: #04313D;
+}
+
+.custom-shape-divider-bottom-1660047418 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1660047418 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider-bottom-1660047418 .shape-fill {
     fill: #04313D;
 }
