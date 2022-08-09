@@ -309,6 +309,25 @@ html, body {
     width: 100%;
 }
 
+.page-id-80 #section6 {
+    position: relative;
+    width: 100%;
+    background-color: #04313D;
+}
+
+.page-id-80 #section6-content {
+    padding-top: 150px;
+    display: inline-block;
+    width: 100%;
+}
+
+.page-id-80 #section6-title {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 4em;
+}
+
 
 /* Do Not Edit */
 .page-id-80 blockquote {
@@ -491,4 +510,40 @@ html, body {
 
 .custom-shape-divider-bottom-1660047418 .shape-fill {
     fill: #04313D;
+}
+
+/* Do Not Edit*/
+
+#section6 .blog-paragraph {
+    text-align: justify !important;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+details {
+    display: block;
+}
+
+summary {
+    font-size: 1.5em;
+    font-weight: 600;
+    background-color: #d6a53f;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 0.25rem;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+}
+
+.faq__content {
+    padding-bottom: 30px;
+}
+
+.faq__content p {
+    color: white;
+    font-size: 1.5em;
 }
