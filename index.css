@@ -313,22 +313,67 @@ html, body {
     position: relative;
     width: 100%;
     background-color: #04313D;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .page-id-80 #section6-content {
-    padding-top: 150px;
     display: inline-block;
     width: 100%;
 }
 
 .page-id-80 #section6-title {
+    margin-top: 0;
     width: 100%;
     text-align: center;
     color: white;
     font-size: 4em;
 }
 
+.page-id-80 #section7 {
+    position: relative;
+    padding-top: 150px;
+    width: 100%;
+    background-color: white;
+}
 
+.page-id-80 #section7-content {
+    display: inline-block;
+    width: 100%;
+}
+
+.page-id-80 #section7-title {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    color: #BC973F;
+    font-size: 5em;
+    text-underline-offset: 10px;
+    margin-bottom: 30px;
+}
+
+.page-id-80 #section7-margin {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 100px;
+}
+
+.page-id-80 #section7-margin p {
+    font-size: 2em;
+}
+
+.page-id-80 #section7-img {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+
+.page-id-80 .youtube {
+    width: 100%;
+    height: 800px;
+}
 /* Do Not Edit */
 .page-id-80 blockquote {
     border-left: 3px solid #000000;
@@ -511,6 +556,28 @@ html, body {
 .custom-shape-divider-bottom-1660047418 .shape-fill {
     fill: #04313D;
 }
+
+.custom-shape-divider-top-1660049621 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1660049621 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 135px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1660049621 .shape-fill {
+    fill: #04313D;
+}
+
 
 /* Do Not Edit*/
 
