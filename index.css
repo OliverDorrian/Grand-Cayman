@@ -168,6 +168,7 @@ html, body {
 }
 
 .page-id-80 .right-text p {
+    text-align: justify;
     color: white;
     font-size: 1.7em;
 }
@@ -183,8 +184,6 @@ html, body {
     width: 100%;
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 90px;
-
     color: black;
     font-size: 5em;
     text-underline-offset: 10px;
@@ -250,7 +249,6 @@ html, body {
 
 .page-id-80 #section4-content {
     padding-top: 150px;
-    padding-bottom: 150px;
     display: inline-block;
     width: 100%;
 }
@@ -273,6 +271,7 @@ html, body {
 
 
 .page-id-80 .section4-img-float {
+    max-width: 600px;
     width: 600px;
     height: 600px;
     float: left;
@@ -383,10 +382,9 @@ html, body {
 
 .page-id-80 #section8 {
     position: relative;
-    padding-top: 150px;
     padding-bottom: 150px;
     width: 100%;
-    background-color: #206786;
+    background-color: #04313D;
 }
 
 .page-id-80 #section8-content {
@@ -399,19 +397,19 @@ html, body {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 90px;
-    color: white;
+    color: #BC973F;
     font-size: 5em;
     text-underline-offset: 10px;
     margin-bottom: 30px;
 }
 
 .page-id-80 .flex-row-lots {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100%;
+
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .page-id-80 .lot {
@@ -471,20 +469,25 @@ html, body {
 
 .page-id-80 .lot-info {
     width: 100%;
+    height: 150px;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .page-id-80 .lot-info p {
-    margin: 30px;
-    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.7em;
 }
 
 /* Do Not Edit */
 .page-id-80 blockquote {
-    border-left: 3px solid #000000;
+    border-left: 1.5px solid #000000;
     color: #04313D;
     font-style: italic;
     padding: 1em 2em;
@@ -704,7 +707,7 @@ html, body {
 }
 
 .custom-shape-divider-bottom-1660052826 .shape-fill {
-    fill: #206786;
+    fill: #04313D;
 }
 
 
@@ -725,7 +728,7 @@ html, body {
 }
 
 .custom-shape-divider-bottom-1660057737 .shape-fill {
-    fill: #206786;
+    fill: #04313D;
 }
 
 
@@ -772,10 +775,10 @@ summary {
         height: 400px;
     }
 
-    .page-id-80 #landing-page img{
+    .page-id-80 #landing-page img {
         width: unset;
-    } 
-    
+    }
+
     .text-temp h1 {
         font-size: 4em;
     }
@@ -785,6 +788,10 @@ summary {
     }
 
     /* About Grand Cayman */
+    .page-id-80 #section2 {
+        padding-top: unset;
+    }
+
     .page-id-80 .left-right-img {
         flex-direction: column;
     }
@@ -832,10 +839,51 @@ summary {
 
     .page-id-80 .attraction-row-text h1 {
         font-size: 2em;
+        text-align: center;
     }
 
     .page-id-80 .padding-div {
         padding: 20px;
+    }
+
+    /* Owen Airport */
+    .page-id-80 #section7-margin p {
+        font-size: 1.5em;
+    }
+
+    /* Featured Lots */
+    .page-id-80 .flex-row-lots {
+        width: 100%;
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    .page-id-80 .flex-row-lots {
+        flex-direction: column;
+    }
+
+    .page-id-80 #section8-title {
+        font-size: 3.5em;
+    }
+
+    .page-id-80 .lot {
+        width: unset;
+        max-width: 400px;
+        margin-bottom: 100px;
+    }
+
+    .page-id-80 .lot-info p {
+        margin: 20px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .page-id-80 .lot-price {
+        font-size: 2em;
+    }
+
+    .page-id-80 .lot .lot-img {
+        width: 100%;
     }
 }
 
@@ -866,7 +914,7 @@ summary {
 
     /* George Town */
     .page-id-80 .section4-img-float {
-        width: 400px;
+        width: 100%;
         height: 400px;
     }
 
@@ -963,7 +1011,7 @@ summary {
     }
 
     .page-id-80 .section4-img-float {
-        width: 300px;
+        width: 100%;
         height: 300px;
     }
 }
