@@ -200,7 +200,6 @@ html, body {
     margin-top: 40px;
     margin-bottom: 40px;
     width: 90%;
-    max-height: 350px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     display: flex;
@@ -282,7 +281,6 @@ html, body {
 
 .page-id-80 .padding-div-large p {
     font-size: 1.5em;
-    padding-left: 30px;
     color: white;
     text-align: justify;
 
@@ -769,12 +767,40 @@ summary {
 }
 
 @media only screen and (max-width: 960px) {
+
+
+
+    /* About Grand Cayman */
+    .page-id-80 .left-right-img {
+        flex-direction: column;
+    }
+
+    .page-id-80 .right-text {
+        padding-top: 50px;
+        width: 80%;
+    }
+
+    /* Key Attractions */
+
+    .page-id-80 .padding-div {
+        margin: 0;
+    }
+
+
     .page-id-80 .attraction-row-img {
         width: 300px;
     }
 
     .page-id-80 .attraction-row-text {
         width: calc(100% - 300px);
+    }
+
+    /* George Town*/
+
+
+    .page-id-80 .overlay {
+        --border-space: unset;
+        --border-style: unset;
     }
 
     .page-id-80 .padding-div-large {
@@ -800,11 +826,89 @@ summary {
 }
 
 @media only screen and (max-width: 760px) {
+
+
+
+    /* Key Attractions */
+    .page-id-80 #Key-attractions-title {
+        font-size: 4em;
+    }
+
+    .page-id-80 .attraction-row-img {
+        width: 250px;
+    }
+
+    .page-id-80 .attraction-row-text {
+        width: calc(100% - 250px);
+    }
+
     .page-id-80 .attraction-row-text p {
         font-size: 1em;
     }
 
     .page-id-80 .attraction-row-text h1 {
         font-size: 1.75em;
+    }
+
+    /* George Town */
+    .page-id-80 .section4-img-float {
+        width: 400px;
+        height: 400px;
+    }
+
+    /* Quote */
+    .page-id-80 blockquote p {
+        font-size: 2em;
+    }
+
+    .page-id-80 blockquote cite {
+        font-size: 3em;
+    }
+
+    /* Five Areas */
+    #section6 .blog-paragraph {
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+
+    /* Owen Airport */
+    .page-id-80 #section7-title {
+        font-size: 3em;
+    }
+
+    .page-id-80 #section7-margin {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .page-id-80 #section7-margin p {
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+
+    /* About Grand Cayman */
+    .page-id-80 .left-img {
+        width: 400px;
+        height: 500px;
+    }
+
+    /* Key Attractions */
+
+    .page-id-80 .attraction-row {
+        flex-direction: column;
+        width: 350px;
+    }
+
+
+    .page-id-80 .attraction-row-img {
+        width: 350px;
+    }
+
+    .page-id-80 .attraction-row-text {
+        width: 100%;
     }
 }
