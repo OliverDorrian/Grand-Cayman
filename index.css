@@ -71,7 +71,7 @@ html, body {
 .page-id-80 #landing-page {
     border: 0 !important;
     width: 100%;
-    height: auto;
+    height: 900px;
 }
 
 .page-id-80 #landing-page img {
@@ -258,8 +258,7 @@ html, body {
 .page-id-80 #section4-title {
     width: 100%;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 90px;
+    margin-top: 90px;
 
     color: white;
     font-size: 5em;
@@ -768,7 +767,22 @@ summary {
 
 @media only screen and (max-width: 960px) {
 
+    /*landing page */
+    .page-id-80 #landing-page {
+        height: 400px;
+    }
 
+    .page-id-80 #landing-page img{
+        width: unset;
+    } 
+    
+    .text-temp h1 {
+        font-size: 4em;
+    }
+
+    .text-temp h4 {
+        display: none;
+    }
 
     /* About Grand Cayman */
     .page-id-80 .left-right-img {
@@ -798,7 +812,7 @@ summary {
     /* George Town*/
 
 
-    .page-id-80 .overlay {
+    .page-id-80 #section4 .overlay {
         --border-space: unset;
         --border-style: unset;
     }
@@ -856,8 +870,14 @@ summary {
         height: 400px;
     }
 
+    .page-id-80 #section4-content {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
     /* Quote */
     .page-id-80 blockquote p {
+        text-align: justify;
         font-size: 2em;
     }
 
@@ -866,6 +886,10 @@ summary {
     }
 
     /* Five Areas */
+    .page-id-80 #section6-title {
+        font-size: 3em;
+    }
+
     #section6 .blog-paragraph {
         width: 85%;
         margin-left: 7.5%;
@@ -886,6 +910,10 @@ summary {
     .page-id-80 #section7-margin p {
         text-align: justify;
     }
+
+    .page-id-80 .youtube {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 525px) {
@@ -903,12 +931,39 @@ summary {
         width: 350px;
     }
 
-
     .page-id-80 .attraction-row-img {
         width: 350px;
     }
 
     .page-id-80 .attraction-row-text {
         width: 100%;
+    }
+
+    /* Quote */
+    .page-id-80 blockquote p {
+        font-size: 1.3em;
+    }
+
+    .page-id-80 blockquote cite {
+        font-size: 2em;
+    }
+
+    .page-id-80 blockquote {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    /* About Grand Cayman */
+    .page-id-80 .left-img {
+        width: 250px;
+        height: 400px;
+    }
+
+    .page-id-80 .section4-img-float {
+        width: 300px;
+        height: 300px;
     }
 }
