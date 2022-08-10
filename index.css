@@ -1,1052 +1,1006 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
 
 html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
-.page-id-80 .max-width-div {
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
+.page-id-26 .max-width-div {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.page-id-80 .top-bar {
-    height: 8vh;
-    width: 100%;
-    position: fixed;
-    z-index: 10;
-    background-color: rgba(3, 25, 31, 0.7);
-    top: 0;
+
+.page-id-26 #parent {
+  border: 0 !important;
+  contain: content;
 }
 
-.page-id-80 .flex-rows {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
+.page-id-26 #landing-page {
+  border: 0 !important;
+  width: 100%;
+  height: 900px;
 }
 
-.page-id-80 .row-left {
-    margin-right: auto;
-    margin-left: 10%;
-    height: 100%;
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.page-id-26 #landing-page img {
+  border: 0 !important;
+  height: 100%;
+  width: 100%;
 }
 
-.page-id-80 .row-left p {
-    color: white;
-    font-size: 3em;
-}
-
-.page-id-80 .row-right {
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.page-id-80 .row-right p {
-    color: white;
-    font-weight: 100;
-    font-size: 1.5em;
-}
-
-.page-id-80 .row-right p:hover {
-    color: #D6A53F;
-}
-
-.page-id-80 #parent {
-    border: 0 !important;
-    contain: content;
-}
-
-.page-id-80 #landing-page {
-    border: 0 !important;
-    width: 100%;
-    height: 900px;
-}
-
-.page-id-80 #landing-page img {
-    border: 0 !important;
-    height: 100%;
-    width: 100%;
-}
-
-.page-id-80 .text-temp {
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    padding: 2em;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+.page-id-26 .text-temp {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  padding: 2em;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .text-temp h1 {
-    margin: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 8em;
-    color: white;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 8em;
+  color: white;
 }
 
 .text-temp h4 {
-    width: 100%;
-    text-align: center;
-    font-size: 2em;
-    color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  color: white;
 }
 
-.page-id-80 #section2 {
-    border: 0 !important;
+.page-id-26 #section2 {
+  border: 0 !important;
 
-    background-color: #04313D;
-    contain: content;
-    padding-bottom: 200px;
-    padding-top: 100px;
+  background-color: #04313D;
+  contain: content;
+  padding-bottom: 200px;
+  padding-top: 100px;
 }
 
-.page-id-80 #about-us-title {
-    text-align: center;
-    width: 100%;
-    color: #D6A53F;
-    font-size: 4em;
-    text-underline-offset: 10px;
+.page-id-26 #about-us-title {
+  text-align: center;
+  width: 100%;
+  color: #D6A53F;
+  font-size: 4em;
+  text-underline-offset: 10px;
 }
 
-.page-id-80 .left-right-img {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
+.page-id-26 .left-right-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
 }
 
-.page-id-80 .left-img::before {
-    transform: translateZ(-1px);
-    width: 80px;
-    height: 80px;
-    margin-left: -50px;
-    margin-top: -50px;
-    background: #D6A53F;
-    content: '';
-    display: inline-block;
+.page-id-26 .left-img::before {
+  transform: translateZ(-1px);
+  width: 80px;
+  height: 80px;
+  margin-left: -50px;
+  margin-top: -50px;
+  background: #D6A53F;
+  content: '';
+  display: inline-block;
 }
 
-.page-id-80 .left-img {
-    transform-style: preserve-3d;
-    background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/07/dreamstime_l_154829520-scaled.jpg");
-    width: 400px;
-    height: 600px;
-    background-size: cover;
+.page-id-26 .left-img {
+  transform-style: preserve-3d;
+  background-image: url("https://www.oasis-land.com/wp-content/uploads/2022/07/dreamstime_l_154829520-scaled.jpg");
+  width: 400px;
+  height: 600px;
+  background-size: cover;
 }
 
-.page-id-80 .left-img::after {
-    transform: translateZ(-1px);
-    position: absolute;
-    border-radius: 50%;
-    bottom: -50px;
-    right: -50px;
-    width: 100px;
-    height: 100px;
-    background: #D6A53F;
-    content: '';
-    display: inline-block;
-}
-
-
-.page-id-80 .right-text {
-    width: 50%;
-}
-
-.page-id-80 .right-text p {
-    text-align: justify;
-    color: white;
-    font-size: 1.7em;
-}
-
-.page-id-80 #section3 {
-    border: 0 !important;
-    width: 100vw;
-    background-color: #F2F2F2;
-    contain: content;
-}
-
-.page-id-80 #Key-attractions-title {
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-    color: black;
-    font-size: 5em;
-    text-underline-offset: 10px;
-}
-
-.page-id-80 .flex-collum {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.page-id-80 .attraction-row {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 90%;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.page-id-80 .attraction-row-img {
-    width: 350px;
-    height: 350px;
-}
-
-.page-id-80 .attraction-row-img img {
-    height: 100%;
-    width: 100%;
-}
-
-.page-id-80 .attraction-row-text {
-    width: calc(100% - 350px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.page-id-80 .padding-div {
-    margin: 40px;
-}
-
-.page-id-80 .attraction-row-text h1 {
-    margin-top: 0;
-    font-size: 2.5em;
-    color: #BC973F;
-    margin-bottom: 0;
-}
-
-.page-id-80 .attraction-row-text p {
-    font-size: 1.4em;
-    color: black;
-    text-align: justify;
-}
-
-.page-id-80 #section4 {
-    position: relative;
-    width: 100%;
-    background-color: #04313D;
-}
-
-.page-id-80 #section4-content {
-    padding-top: 150px;
-    display: inline-block;
-    width: 100%;
-}
-
-.page-id-80 #section4-title {
-    width: 100%;
-    text-align: center;
-    margin-top: 90px;
-
-    color: white;
-    font-size: 5em;
-    text-underline-offset: 10px;
-}
-
-.page-id-80 .padding-div-large {
-    padding: 100px;
-    padding-top: 0;
-    display: inline-block;
+.page-id-26 .left-img::after {
+  transform: translateZ(-1px);
+  position: absolute;
+  border-radius: 50%;
+  bottom: -50px;
+  right: -50px;
+  width: 100px;
+  height: 100px;
+  background: #D6A53F;
+  content: '';
+  display: inline-block;
 }
 
 
-.page-id-80 .section4-img-float {
-    max-width: 600px;
-    width: 600px;
-    height: 600px;
-    float: left;
+.page-id-26 .right-text {
+  width: 50%;
 }
 
-.page-id-80 .padding-div-large p {
-    font-size: 1.5em;
-    color: white;
-    text-align: justify;
+.page-id-26 .right-text p {
+  text-align: justify;
+  color: white;
+  font-size: 1.7em;
 }
 
-.page-id-80 .flex-row-down {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.page-id-26 #section3 {
+  border: 0 !important;
+  width: 100vw;
+  background-color: #F2F2F2;
+  contain: content;
 }
 
-.page-id-80 .img-flex {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+.page-id-26 #Key-attractions-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  color: black;
+  font-size: 5em;
+  text-underline-offset: 10px;
 }
 
-.page-id-80 .img-and-text {
-    display: flex;
-    flex-direction: column;
+.page-id-26 .flex-collum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.page-id-80 #section5 {
-    position: relative;
-    background-color: #F9F9F9;
+.page-id-26 .attraction-row {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 90%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.page-id-80 #section5-content {
-    padding-top: 200px;
-    padding-bottom: 150px;
-    display: inline-block;
-    width: 100%;
+.page-id-26 .attraction-row-img {
+  width: 350px;
+  height: 350px;
 }
 
-.page-id-80 #section6 {
-    position: relative;
-    width: 100%;
-    background-color: #04313D;
-    padding-top: 100px;
-    padding-bottom: 100px;
+.page-id-26 .attraction-row-img img {
+  height: 100%;
+  width: 100%;
 }
 
-.page-id-80 #section6-content {
-    display: inline-block;
-    width: 100%;
+.page-id-26 .attraction-row-text {
+  width: calc(100% - 350px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.page-id-80 #section6-title {
-    margin-top: 0;
-    width: 100%;
-    text-align: center;
-    color: white;
-    font-size: 4em;
+.page-id-26 .padding-div {
+  margin: 40px;
 }
 
-.page-id-80 #section7 {
-    position: relative;
-    padding-top: 150px;
-    width: 100%;
-    background-color: white;
+.page-id-26 .attraction-row-text h1 {
+  margin-top: 0;
+  font-size: 2.5em;
+  color: #BC973F;
+  margin-bottom: 0;
 }
 
-.page-id-80 #section7 .max-width-div {
-    max-width: 1660px;
+.page-id-26 .attraction-row-text p {
+  font-size: 1.4em;
+  color: black;
+  text-align: justify;
 }
 
-.page-id-80 #section7-content {
-    display: inline-block;
-    width: 100%;
-    padding-bottom: 100px;
+.page-id-26 #section4 {
+  position: relative;
+  width: 100%;
+  background-color: #04313D;
 }
 
-.page-id-80 #section7-title {
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 90px;
-    color: #BC973F;
-    font-size: 5em;
-    text-underline-offset: 10px;
-    margin-bottom: 30px;
+.page-id-26 #section4-content {
+  padding-top: 150px;
+  display: inline-block;
+  width: 100%;
 }
 
-.page-id-80 #section7-margin {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-bottom: 100px;
+.page-id-26 #section4-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 90px;
+
+  color: white;
+  font-size: 5em;
+  text-underline-offset: 10px;
 }
 
-.page-id-80 #section7-margin p {
-    font-size: 2em;
+.page-id-26 .padding-div-large {
+  padding: 100px;
+  padding-top: 0;
+  display: inline-block;
 }
 
-.page-id-80 #section7-img {
-    width: 100%;
-    height: auto;
-    border-radius: 40px;
+
+.page-id-26 .section4-img-float {
+  max-width: 600px;
+  width: 600px;
+  height: 600px;
+  float: left;
 }
 
-.page-id-80 .youtube {
-    width: 100%;
-    height: 800px;
+.page-id-26 .padding-div-large p {
+  font-size: 1.5em;
+  color: white;
+  text-align: justify;
 }
 
-.page-id-80 #section8 {
-    position: relative;
-    width: 100%;
-    background-color: #04313D;
+.page-id-26 .flex-row-down {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.page-id-80 #section8-content {
-    display: inline-block;
-    width: 100%;
+.page-id-26 .img-flex {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.page-id-80 #section8-title {
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 90px;
-    color: white;
-    font-size: 5em;
-    text-underline-offset: 10px;
-    margin-bottom: 30px;
+.page-id-26 .img-and-text {
+  display: flex;
+  flex-direction: column;
 }
 
-.page-id-80 .flex-row-lots {
-    width: 100%;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+.page-id-26 #section5 {
+  position: relative;
+  background-color: #F9F9F9;
 }
 
-.page-id-80 .lot {
-    display: flex;
-    width: 500px;
-    height: 100%;
-    margin-bottom: 30px;
-    flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+.page-id-26 #section5-content {
+  padding-top: 200px;
+  padding-bottom: 150px;
+  display: inline-block;
+  width: 100%;
 }
 
-.page-id-80 .lot .lot-img {
-    position: relative;
-    width: 500px;
-    height: 300px;
+.page-id-26 #section6 {
+  position: relative;
+  width: 100%;
+  background-color: #04313D;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.page-id-80 .lot .lot-img img {
-    width: 100%;
-    height: 100%;
+.page-id-26 #section6-content {
+  display: inline-block;
+  width: 100%;
 }
 
-.page-id-80 .lot-price {
-    padding: 20px;
-    width: 60%;
-    color: white;
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-    margin-bottom: 0;
-    margin-top: 0;
-    font-size: 2.5em;
-    border-top: 2px solid rgba(255, 255, 255, 0.795);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.795)
+.page-id-26 #section6-title {
+  margin-top: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 4em;
 }
 
-.page-id-80 .lot-price::before {
-    left: 0;
-    top: -2px;
-    content: '';
-    position: absolute;
-    z-index: 100;
-    width: 100px;
-    height: 3px;
-    background-color: #d6a53f;
+.page-id-26 #section7 {
+  position: relative;
+  padding-top: 150px;
+  width: 100%;
+  background-color: white;
 }
 
-.page-id-80 .lot-price::after {
-    bottom: -2px;
-    right: 0;
-    content: '';
-    position: absolute;
-    z-index: 100;
-    width: 100px;
-    height: 3px;
-    background-color: #d6a53f;
+.page-id-26 #section7 .max-width-div {
+  max-width: 1660px;
 }
 
-.page-id-80 .lot-info {
-    z-index: 2;
-    width: 100%;
-    height: 150px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.page-id-26 #section7-content {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 100px;
 }
 
-.page-id-80 .lot-info p {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 1.7em;
+.page-id-26 #section7-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  color: #BC973F;
+  font-size: 5em;
+  text-underline-offset: 10px;
+  margin-bottom: 30px;
 }
 
-.page-id-80 .caymen-logo {
-    position: absolute;
-    padding: 2em;
-    left: 50%;
-    top: 50%;
-    z-index: 0;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    background: #D6A53F;
-    content: '';
+.page-id-26 #section7-margin {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 100px;
 }
 
-/* Do Not Edit */
-.page-id-80 blockquote {
-    border-left: 1.5px solid #000000;
-    color: #04313D;
-    font-style: italic;
-    padding: 1em 2em;
-    position: relative;
-    transition: 0.2s border ease-in-out;
-    z-index: 0;
+.page-id-26 #section7-margin p {
+  font-size: 2em;
 }
 
-.page-id-80 blockquote:before {
-    content: "";
-    position: absolute;
-    top: 44%;
-    left: -4px;
-    height: 6em;
-    background-color: #F9F9F9;
-    width: 5px;
-    margin-top: -1em;
+.page-id-26 #section7-img {
+  width: 100%;
+  height: auto;
+  border-radius: 40px;
 }
 
-.page-id-80 blockquote cite {
-    text-align: center;
-    color: #BC973F;
-    display: block;
-    font-size: 4em;
-    margin-top: 0.75em;
+.page-id-26 .youtube {
+  width: 100%;
+  height: 800px;
 }
 
-.page-id-80 blockquote p {
-    font-size: 3em;
-    color: #000000 !important;
+.page-id-26 #section8 {
+  position: relative;
+  width: 100%;
+  background-color: #04313D;
 }
 
-.page-id-80 blockquote:after {
-    content: "''";
-    position: absolute;
-    top: 50%;
-    left: -0.5em;
-    color: #000000;
-    font-size: 5em;
-    font-family: "Ionicons";
-    font-style: normal;
-    text-align: center;
-    text-indent: -2px;
-    width: 1em;
-    margin-top: -0.5em;
-    transition: 0.2s all ease-in-out, 0.4s transform ease-in-out;
+.page-id-26 #section8-content {
+  display: inline-block;
+  width: 100%;
+}
+
+.page-id-26 #section8-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  color: white;
+  font-size: 5em;
+  text-underline-offset: 10px;
+  margin-bottom: 30px;
+}
+
+.page-id-26 .flex-row-lots {
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.page-id-26 .lot {
+  display: flex;
+  width: 500px;
+  height: 100%;
+  margin-bottom: 30px;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.page-id-26 .lot .lot-img {
+  position: relative;
+  width: 500px;
+  height: 300px;
+}
+
+.page-id-26 .lot .lot-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.page-id-26 .lot-price {
+  padding: 20px;
+  width: 60%;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 2.5em;
+  border-top: 2px solid rgba(255, 255, 255, 0.795);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.795)
+}
+
+.page-id-26 .lot-price::before {
+  left: 0;
+  top: -2px;
+  content: '';
+  position: absolute;
+  z-index: 100;
+  width: 100px;
+  height: 3px;
+  background-color: #d6a53f;
+}
+
+.page-id-26 .lot-price::after {
+  bottom: -2px;
+  right: 0;
+  content: '';
+  position: absolute;
+  z-index: 100;
+  width: 100px;
+  height: 3px;
+  background-color: #d6a53f;
+}
+
+.page-id-26 .lot-info {
+  z-index: 2;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-id-26 .lot-info p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.7em;
+  text-decoration: none !important;
+  color: black;
+}
+
+.page-id-26 .caymen-logo {
+  border-radius: 50%;
+  position: absolute;
+  padding: 2em;
+  left: 50%;
+  top: 50%;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #D6A53F;
+  content: '';
 }
 
 /* Do Not Edit */
-.page-id-80 .overlay {
-    position: relative;
-    display: inline-block;
-    --border-style: 2px solid rgb(206, 164, 27);
-    --border-space: 20px;
+.page-id-26 blockquote {
+  border-left: 1.5px solid #000000;
+  color: #04313D;
+  font-style: italic;
+  padding: 1em 2em;
+  position: relative;
+  transition: 0.2s border ease-in-out;
+  z-index: 0;
 }
 
-.page-id-80 .overlay-element {
-    position: absolute;
-    width: 150px;
-    /* controls the length of the borders */
-    height: 100px;
-    /* controls the height of the borders */
+.page-id-26 blockquote:before {
+  content: "";
+  position: absolute;
+  top: 44%;
+  left: -4px;
+  height: 6em;
+  background-color: #F9F9F9;
+  width: 5px;
+  margin-top: -1em;
 }
 
-.page-id-80 .overlay .top-left {
-    margin: -40px;
-    border-left: var(--border-style);
-    border-top: var(--border-style);
-    top: var(--border-space);
-    left: var(--border-space);
+.page-id-26 blockquote cite {
+  text-align: center;
+  color: #BC973F;
+  display: block;
+  font-size: 4em;
+  margin-top: 0.75em;
 }
 
-.page-id-80 .overlay .top-right {
-    margin: -40px;
-    border-right: var(--border-style);
-    border-top: var(--border-style);
-    top: var(--border-space);
-    right: var(--border-space);
+.page-id-26 blockquote p {
+  font-size: 3em;
+  color: #000000 !important;
 }
 
-.page-id-80 .overlay .bottom-left {
-    margin: -40px;
-    border-left: var(--border-style);
-    border-bottom: var(--border-style);
-    bottom: var(--border-space);
-    left: var(--border-space);
+.page-id-26 blockquote:after {
+  content: "''";
+  position: absolute;
+  top: 50%;
+  left: -0.5em;
+  color: #000000;
+  font-size: 5em;
+  font-family: "Ionicons";
+  font-style: normal;
+  text-align: center;
+  text-indent: -2px;
+  width: 1em;
+  margin-top: -0.5em;
+  transition: 0.2s all ease-in-out, 0.4s transform ease-in-out;
 }
 
-.page-id-80 .overlay .bottom-right {
-    margin: -40px;
-    border-right: var(--border-style);
-    border-bottom: var(--border-style);
-    bottom: var(--border-space);
-    right: var(--border-space);
+/* Do Not Edit */
+.page-id-26 .overlay {
+  position: relative;
+  display: inline-block;
+  --border-style: 2px solid rgb(206, 164, 27);
+  --border-space: 20px;
+}
+
+.page-id-26 .overlay-element {
+  position: absolute;
+  width: 150px;
+  /* controls the length of the borders */
+  height: 100px;
+  /* controls the height of the borders */
+}
+
+.page-id-26 .overlay .top-left {
+  margin: -40px;
+  border-left: var(--border-style);
+  border-top: var(--border-style);
+  top: var(--border-space);
+  left: var(--border-space);
+}
+
+.page-id-26 .overlay .top-right {
+  margin: -40px;
+  border-right: var(--border-style);
+  border-top: var(--border-style);
+  top: var(--border-space);
+  right: var(--border-space);
+}
+
+.page-id-26 .overlay .bottom-left {
+  margin: -40px;
+  border-left: var(--border-style);
+  border-bottom: var(--border-style);
+  bottom: var(--border-space);
+  left: var(--border-space);
+}
+
+.page-id-26 .overlay .bottom-right {
+  margin: -40px;
+  border-right: var(--border-style);
+  border-bottom: var(--border-style);
+  bottom: var(--border-space);
+  right: var(--border-space);
 }
 
 
 
 /* Do Not Edit */
 .custom-shape-divider-bottom-1659972999 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .custom-shape-divider-bottom-1659972999 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 132px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 132px;
 }
 
 .custom-shape-divider-bottom-1659972999 .shape-fill {
-    fill: #F2F2F2;
+  fill: #F2F2F2;
 }
 
 .custom-shape-divider-top-1660034806 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .custom-shape-divider-top-1660034806 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
 }
 
 .custom-shape-divider-top-1660034806 .shape-fill {
-    fill: #F2F2F2;
+  fill: #F2F2F2;
 }
 
 .custom-shape-divider-top-1660042866 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .custom-shape-divider-top-1660042866 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 220px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 220px;
 }
 
 .custom-shape-divider-top-1660042866 .shape-fill {
-    fill: #04313D;
+  fill: #04313D;
 }
 
 .custom-shape-divider-bottom-1660047418 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .custom-shape-divider-bottom-1660047418 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 120px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 120px;
 }
 
 .custom-shape-divider-bottom-1660047418 .shape-fill {
-    fill: #04313D;
+  fill: #04313D;
 }
 
 .custom-shape-divider-top-1660049621 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .custom-shape-divider-top-1660049621 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 135px;
-    transform: rotateY(180deg);
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 135px;
+  transform: rotateY(180deg);
 }
 
 .custom-shape-divider-top-1660049621 .shape-fill {
-    fill: #04313D;
+  fill: #04313D;
 }
 
 .custom-shape-divider-bottom-1660052826 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .custom-shape-divider-bottom-1660052826 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 135px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 135px;
 }
 
 .custom-shape-divider-bottom-1660052826 .shape-fill {
-    fill: #04313D;
+  fill: #04313D;
 }
 
 
 .custom-shape-divider-bottom-1660057737 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .custom-shape-divider-bottom-1660057737 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 135px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 135px;
 }
 
 .custom-shape-divider-bottom-1660057737 .shape-fill {
-    fill: #04313D;
+  fill: #04313D;
 }
 
 
 /* Do Not Edit*/
 
 #section6 .blog-paragraph {
-    text-align: justify !important;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+  text-align: justify !important;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 details {
-    display: block;
+  display: block;
 }
 
 summary {
-    font-size: 1.5em;
-    font-weight: 600;
-    background-color: #d6a53f;
-    color: white;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    outline: none;
-    border-radius: 0.25rem;
-    text-align: left;
-    cursor: pointer;
-    position: relative;
+  font-size: 1.5em;
+  font-weight: 600;
+  background-color: #d6a53f;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
 }
 
 .faq__content {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .faq__content p {
-    color: white;
-    font-size: 1.5em;
+  color: white;
+  font-size: 1.5em;
 }
 
 @media only screen and (min-width: 1440px) {
-    .page-id-80 #landing-page {
-        height: 100vh;
-    }
+  .page-id-26 #landing-page {
+    height: 100vh;
+  }
 
-    .text-temp h1 {
-        font-size: 12em;
-    }
+  .text-temp h1 {
+    font-size: 12em;
+  }
 
-    .text-temp h4 {
-        font-size: 4em;
-    }
+  .text-temp h4 {
+    font-size: 4em;
+  }
 }
 
 @media only screen and (max-width: 960px) {
 
-    /*landing page */
-    .page-id-80 #landing-page {
-        height: 600px;
-    }
+  /*landing page */
+  .page-id-26 #landing-page {
+    height: 600px;
+  }
 
-    .text-temp h1 {
-        font-size: 6em;
-    }
+  .text-temp h1 {
+    font-size: 6em;
+  }
 
-    .text-temp h4 {
-        display: none;
-    }
+  .text-temp h4 {
+    display: none;
+  }
 
-    /* About Grand Cayman */
-    .page-id-80 #section2 {
-        padding-top: unset;
-    }
+  /* About Grand Cayman */
+  .page-id-26 #section2 {
+    padding-top: unset;
+  }
 
-    .page-id-80 .left-right-img {
-        flex-direction: column;
-    }
+  .page-id-26 .left-right-img {
+    flex-direction: column;
+  }
 
-    .page-id-80 .right-text {
-        padding-top: 50px;
-        width: 80%;
-    }
+  .page-id-26 .right-text {
+    padding-top: 50px;
+    width: 80%;
+  }
 
-    /* Key Attractions */
+  /* Key Attractions */
 
-    .page-id-80 .padding-div {
-        margin: 0;
-    }
-
-
-    .page-id-80 .attraction-row-img {
-        width: 300px;
-    }
-
-    .page-id-80 .attraction-row-text {
-        width: calc(100% - 300px);
-    }
-
-    /* George Town*/
+  .page-id-26 .padding-div {
+    margin: 0;
+  }
 
 
-    .page-id-80 #section4 .overlay {
-        --border-space: unset;
-        --border-style: unset;
-    }
+  .page-id-26 .attraction-row-img {
+    width: 300px;
+  }
 
-    .page-id-80 .padding-div-large {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
+  .page-id-26 .attraction-row-text {
+    width: calc(100% - 300px);
+  }
 
-    .page-id-80 .attraction-row {
-        width: 100%;
-    }
+  /* George Town*/
 
-    .page-id-80 .attraction-row-text p {
-        font-size: 1.3em;
-    }
 
-    .page-id-80 .attraction-row-text h1 {
-        font-size: 2em;
-        text-align: center;
-    }
+  .page-id-26 #section4 .overlay {
+    --border-space: unset;
+    --border-style: unset;
+  }
 
-    .page-id-80 .padding-div {
-        padding: 20px;
-    }
+  .page-id-26 .padding-div-large {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 
-    /* Owen Airport */
-    .page-id-80 #section7-margin p {
-        font-size: 1.5em;
-    }
+  .page-id-26 .attraction-row {
+    width: 100%;
+  }
 
-    /* Featured Lots */
-    .page-id-80 .flex-row-lots {
-        width: 100%;
-        margin-bottom: 50px;
-        margin-left: unset;
-        margin-right: unset;
-    }
+  .page-id-26 .attraction-row-text p {
+    font-size: 1.3em;
+  }
 
-    .page-id-80 .flex-row-lots {
-        flex-direction: column;
-    }
+  .page-id-26 .attraction-row-text h1 {
+    font-size: 2em;
+    text-align: center;
+  }
 
-    .page-id-80 #section8-title {
-        font-size: 3.5em;
-    }
+  .page-id-26 .padding-div {
+    padding: 20px;
+  }
 
-    .page-id-80 .lot {
-        width: unset;
-        max-width: 400px;
-        margin-bottom: 100px;
-    }
+  /* Owen Airport */
+  .page-id-26 #section7-margin p {
+    font-size: 1.5em;
+  }
 
-    .page-id-80 .lot-info p {
-        margin: 20px;
-        text-align: center;
-        font-size: 1.5em;
-    }
+  /* Featured Lots */
+  .page-id-26 .flex-row-lots {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-left: unset;
+    margin-right: unset;
+  }
 
-    .page-id-80 .lot-price {
-        font-size: 2em;
-    }
+  .page-id-26 .flex-row-lots {
+    flex-direction: column;
+  }
 
-    .page-id-80 .lot .lot-img {
-        width: 100%;
-    }
+  .page-id-26 #section8-title {
+    font-size: 3.5em;
+  }
+
+  .page-id-26 .lot {
+    width: unset;
+    max-width: 400px;
+    margin-bottom: 100px;
+  }
+
+  .page-id-26 .lot-info p {
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .page-id-26 .lot-price {
+    font-size: 2em;
+  }
+
+  .page-id-26 .lot .lot-img {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 760px) {
 
 
 
-    /* Key Attractions */
-    .page-id-80 #Key-attractions-title {
-        font-size: 4em;
-    }
+  /* Key Attractions */
+  .page-id-26 #Key-attractions-title {
+    font-size: 4em;
+  }
 
-    .page-id-80 .attraction-row-img {
-        width: 250px;
-    }
+  .page-id-26 .attraction-row-img {
+    width: 250px;
+  }
 
-    .page-id-80 .attraction-row-text {
-        width: calc(100% - 250px);
-    }
+  .page-id-26 .attraction-row-text {
+    width: calc(100% - 250px);
+  }
 
-    .page-id-80 .attraction-row-text p {
-        font-size: 1em;
-    }
+  .page-id-26 .attraction-row-text p {
+    font-size: 1em;
+  }
 
-    .page-id-80 .attraction-row-text h1 {
-        font-size: 1.75em;
-    }
+  .page-id-26 .attraction-row-text h1 {
+    font-size: 1.75em;
+  }
 
-    /* George Town */
-    .page-id-80 .section4-img-float {
-        width: 100%;
-        height: 400px;
-    }
+  /* George Town */
+  .page-id-26 .section4-img-float {
+    width: 100%;
+    height: 400px;
+  }
 
-    .page-id-80 #section4-content {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
+  .page-id-26 #section4-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
-    /* Quote */
-    .page-id-80 blockquote p {
-        text-align: justify;
-        font-size: 2em;
-    }
+  /* Quote */
+  .page-id-26 blockquote p {
+    text-align: justify;
+    font-size: 2em;
+  }
 
-    .page-id-80 blockquote cite {
-        font-size: 3em;
-    }
+  .page-id-26 blockquote cite {
+    font-size: 3em;
+  }
 
-    /* Five Areas */
-    .page-id-80 #section6-title {
-        font-size: 3em;
-    }
+  /* Five Areas */
+  .page-id-26 #section6-title {
+    font-size: 3em;
+  }
 
-    #section6 .blog-paragraph {
-        width: 85%;
-        margin-left: 7.5%;
-        margin-right: 7.5%;
-    }
+  #section6 .blog-paragraph {
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
 
-    /* Owen Airport */
-    .page-id-80 #section7-title {
-        font-size: 3em;
-    }
+  /* Owen Airport */
+  .page-id-26 #section7-title {
+    font-size: 3em;
+  }
 
-    .page-id-80 #section7-margin {
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
+  .page-id-26 #section7-margin {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
-    .page-id-80 #section7-margin p {
-        text-align: justify;
-    }
+  .page-id-26 #section7-margin p {
+    text-align: justify;
+  }
 
-    .page-id-80 .youtube {
-        display: none;
-    }
+  .page-id-26 .youtube {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 525px) {
 
-    /* About Grand Cayman */
-    .page-id-80 .left-img {
-        width: 400px;
-        height: 500px;
-    }
+  /* About Grand Cayman */
+  .page-id-26 .left-img {
+    width: 400px;
+    height: 500px;
+  }
 
-    /* Key Attractions */
+  /* Key Attractions */
 
-    .page-id-80 .attraction-row {
-        flex-direction: column;
-        width: 350px;
-    }
+  .page-id-26 .attraction-row {
+    flex-direction: column;
+    width: 350px;
+  }
 
-    .page-id-80 .attraction-row-img {
-        width: 350px;
-    }
+  .page-id-26 .attraction-row-img {
+    width: 350px;
+  }
 
-    .page-id-80 .attraction-row-text {
-        width: 100%;
-    }
+  .page-id-26 .attraction-row-text {
+    width: 100%;
+  }
 
-    /* Quote */
-    .page-id-80 blockquote p {
-        font-size: 1.3em;
-    }
+  /* Quote */
+  .page-id-26 blockquote p {
+    font-size: 1.3em;
+  }
 
-    .page-id-80 blockquote cite {
-        font-size: 2em;
-    }
+  .page-id-26 blockquote cite {
+    font-size: 2em;
+  }
 
-    .page-id-80 blockquote {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+  .page-id-26 blockquote {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
 
-    /* About Grand Cayman */
-    .page-id-80 .left-img {
-        width: 250px;
-        height: 400px;
-    }
+  /* About Grand Cayman */
+  .page-id-26 .left-img {
+    width: 250px;
+    height: 400px;
+  }
 
-    .page-id-80 .section4-img-float {
-        width: 100%;
-        height: 300px;
-    }
+  .page-id-26 .section4-img-float {
+    width: 100%;
+    height: 300px;
+  }
 
-    .page-id-80 #landing-page {
-        display: none;
-    }
+  .page-id-26 #landing-page {
+    display: none;
+  }
 }
